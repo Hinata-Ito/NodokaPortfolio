@@ -2,6 +2,11 @@ body {
     font-family: serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 h1 {
   color: #ff0000;
 }
