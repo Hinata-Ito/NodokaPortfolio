@@ -23,6 +23,10 @@ header h1 {
     margin: 0;
 }
 
+h1 a {
+
+}
+
 nav {
     margin-top: 10px;
     justify-content: space-between;
@@ -43,8 +47,7 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
-    margin-top: -2px;
+    margin-bottom: 3px;
 }
 
 section {
