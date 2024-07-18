@@ -1,3 +1,7 @@
+:root{
+    --maincolor : rgb(255, 118, 206) ; 
+}
+
 body {
     font-family: serif;
     line-height: 1.6;
@@ -24,8 +28,8 @@ nav {
     justify-content: space-between;
     display: flex;
     justify-content: space-between; /* 横方向に並べる */
-    align-items: flex-end; /* 縦方向に下に揃える */
-    height: fit-content;
+    align-items: flex-end;
+    height: auto;
 }
 
 nav span {
@@ -40,6 +44,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    margin-top: -2px;
 }
 
 section {
