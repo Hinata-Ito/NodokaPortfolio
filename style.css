@@ -22,6 +22,10 @@ header h1 {
 nav {
     margin-top: 10px;
     justify-content: space-between;
+    display: flex;
+    justify-content: space-between; /* 横方向に並べる */
+    align-items: flex-end; /* 縦方向に下に揃える */
+    height: fit-content;
 }
 
 nav span {
